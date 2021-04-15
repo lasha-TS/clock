@@ -1,0 +1,138 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+}
+
+.frame {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 90vh;
+  height: 90vh;
+  border-radius: 100%;
+  background: radial-gradient(circle, #292929 65%, black 69%, #c2c2c2 72%);
+}
+
+.frame .middle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 83vh;
+  height: 83vh;
+  background: #929292;
+  border-radius: 100%;
+}
+
+.frame .middle .clockBg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 83vh;
+  height: 83vh;
+}
+
+.frame .middle .dot {
+  position: absolute;
+  z-index: 1;
+  padding: 2vh;
+  background: radial-gradient(circle, black 20%, #15ff00 40%, black 70%);
+  border-radius: 50px;
+  -webkit-box-shadow: 0px 0px 5px 2px black;
+          box-shadow: 0px 0px 5px 2px black;
+}
+
+.frame .middle .hour {
+  position: absolute;
+  border-radius: 50px;
+  -webkit-transform-origin: bottom;
+          transform-origin: bottom;
+  z-index: 2;
+  top: 25vh;
+  width: 0.5vw;
+  height: 25vh;
+  background: -webkit-gradient(linear, left top, right top, color-stop(30%, black), color-stop(50%, #ff3737), color-stop(70%, black));
+  background: linear-gradient(90deg, black 30%, #ff3737 50%, black 70%);
+}
+
+.frame .middle .min {
+  position: absolute;
+  border-radius: 50px;
+  -webkit-transform-origin: bottom;
+          transform-origin: bottom;
+  z-index: 2;
+  top: 20vh;
+  width: 0.5vw;
+  height: 30vh;
+  background: -webkit-gradient(linear, left top, right top, color-stop(30%, black), color-stop(50%, #ff3737), color-stop(70%, black));
+  background: linear-gradient(90deg, black 30%, #ff3737 50%, black 70%);
+}
+
+.frame .middle .sec {
+  position: absolute;
+  border-radius: 50px;
+  -webkit-transform-origin: bottom;
+          transform-origin: bottom;
+  z-index: 3;
+  top: 20vh;
+  width: 0.3vw;
+  height: 30vh;
+  background: -webkit-gradient(linear, left top, right top, color-stop(20%, black), color-stop(50%, #15ff00), color-stop(80%, black));
+  background: linear-gradient(90deg, black 20%, #15ff00 50%, black 80%);
+}
+
+.frame .middle .dayButton {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: flex;
+  margin-top: 30vh;
+  width: 20vh;
+  height: 5vh;
+  border-radius: 50px;
+  background: radial-gradient(circle, #b3b3b3 50%, black 95%, #b3b3b3 100%);
+}
+
+.frame .middle .dayButton .day {
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+}
+/*# sourceMappingURL=style.css.map */
